@@ -150,11 +150,11 @@ public class StringProcessor {
         System.out.println(sp.calculateDigits("In 2020, I got 1 dog.")); // 3: three digits
 
         // Test cases for calculateWords
-        System.out.println(sp.calculateWords("Hello world!")); // 2: two words
-        System.out.println(sp.calculateWords("   Leading spaces")); // 2: two words
-        System.out.println(sp.calculateWords("Trailing spaces   ")); // 2: two words
+        System.out.println(sp.calculateWords("Hello everyone!")); // 2: two words
+        System.out.println(sp.calculateWords("  how are you")); // 2: two words
+        System.out.println(sp.calculateWords(" welcome mm ")); // 2: two words
         System.out.println(sp.calculateWords("")); // 0: no words
-        System.out.println(sp.calculateWords("SingleWord")); // 1: one word
+        System.out.println(sp.calculateWords("Salima")); // 1: one word
 
         // Test cases for calculateExpression
         System.out.println(sp.calculateExpression("3 + 5")); // 8.0: basic addition
