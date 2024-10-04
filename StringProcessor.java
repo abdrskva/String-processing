@@ -151,7 +151,7 @@ public class StringProcessor {
 
         // Test cases for calculateWords
         System.out.println(sp.calculateWords("Hello everyone!")); // 2: two words
-        System.out.println(sp.calculateWords("  how are you")); // 2: two words
+        System.out.println(sp.calculateWords("whats app")); // 2: two words
         System.out.println(sp.calculateWords(" welcome mm ")); // 2: two words
         System.out.println(sp.calculateWords("")); // 0: no words
         System.out.println(sp.calculateWords("Salima")); // 1: one word
